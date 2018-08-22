@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>JS DRILL</h1>
+	<h3> Sum of 2 numbers</h3>
+	<input class="sumNum" type="text" name="firstNumber">
+	<input class="sumNum" type="text" name="secondNumber">
+	<button id="sumButton">Submit</button>
+	<h3> Sum: <span id="sum">0</span></h3>
+
+	<br/>
+	<h3> Sum of array</h3>
+	<label>Enter an array:</label>
+	<input id="array" type="text" name="array">
+	<button id="arrayButton">Submit</button>
+	<h3> Sum of array: <span id="arrSum">0</span></h3>
+	<br/>
+
+	<h3> Vowel Count</h3>
+	<label>Enter a string:</label>
+	<input id="str" type="text" name="string">
+	<button onclick="vowelCount()">Submit</button>
+	<h3> Vowel Count: <span id="vowCount">0</span></h3>
+
+	<div id="dice">
+		<h3> Dice </h3>
+		<h4> Roll the dice </h4>	
+		<button onclick="rollDice()">Roll</button>
+	</div>
+	
+	<br/>
+	<h3> Avg of array</h3>
+	<label>Enter an array:</label>
+	<input id="array1" type="text" name="array">
+	<button id="arrayButton" onclick="arrayAvg()">Submit</button>
+	<h3> Average of array: <span id="arrAvg">0</span></h3>
+	<br/>
+
+	<br/>
+	<h3> Fizzbuzz</h3>
+	<button id="fizzbuzz" onclick="fizzBuzz()">Fizzbuzz</button>
+	<h3></h3>
+	<br/>
+
+	<br/>
+	<h3> Factorial of a number:</h3>
+	<label>Enter a number:</label>
+	<input id="factNum" type="text" name="number">
+	<button id="factButton" onclick="factorial()">Submit</button>
+	<h3> Factorial of <span id="num">0</span> number: <span id="factor">0</span></h3>
+	<br/>
+
+	<br/>
+	<h3> Fibonacci Series:</h3>
+	<label>Enter a number:</label>
+	<input id="fiboNum" type="text" name="number">
+	<button onclick="fibo(document.getElementById('fiboNum').value)">Submit</button>
+	<h3> fib(<span id="fiboIndex">0</span>): <span id="fiboNumRes">0</span></h3>
+	<br/>
+
+	<br/>
+	<h3> Roman NUmbers Convertion:</h3>
+	<label>Enter a number:</label>
+	<input id="romanNum" type="text" name="number">
+	<button onclick="romanNumbersConversion(document.getElementById('romanNum').value)">Submit</button>
+	<h3> Roman Number of <span id="romNum1">0</span>: <span id="romanResult" >0</span></h3>
+	<br/>
+	<script type="text/javascript" src="jsdrill.js"></script>
+</body>
+</html>
