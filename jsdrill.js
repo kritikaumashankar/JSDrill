@@ -1,6 +1,7 @@
 var sum = document.getElementById("sum")
 var arrSum = document.getElementById("arrSum")
 var str = document.getElementById("str")
+var f_number = document.getElementById('faren')
 var arrAvg = document.getElementById("arrAvg")
 var factNum = document.getElementById("factNum")
 var num = document.getElementById("num")
@@ -49,6 +50,13 @@ function sumArray(arr){
 	}
 	 
 	return total
+}
+function fToCConversion(f_number){
+	//console.log(f_number.value)
+	var result =  (parseInt(f_number.value)-32)*5/9
+	//console.log(result)
+	document.getElementById('c_num').innerHTML = result
+
 }
 
 function vowelCount(){
